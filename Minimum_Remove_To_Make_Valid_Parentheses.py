@@ -1,5 +1,5 @@
 def minRemoveToMakeItValid(s: str) -> str:
-    # we either have surplace of "(" or ")
+    # we either have surplace of "(" or ")"
     # if extra ")" skip it
     # if extra "(" we remove them at end, how?
     count = 0
